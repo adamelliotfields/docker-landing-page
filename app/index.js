@@ -37,6 +37,8 @@ app.get('/', (req, res) => {
 
 app.use((req, res, _) => {
   res.status(404).render('error', {
+    background: config.background,
+    color: config.color,
     title: STATUS_CODES[404],
     status: 404,
     message: STATUS_CODES[404],
@@ -45,6 +47,8 @@ app.use((req, res, _) => {
 
 app.use((err, req, res, _) => {
   res.status(500).render('error', {
+    background: config.background,
+    color: config.color,
     title: STATUS_CODES[500],
     status: 500,
     message: NODE_ENV === 'production' ? STATUS_CODES[500] : err.message,
