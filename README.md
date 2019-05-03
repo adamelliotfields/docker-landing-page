@@ -1,9 +1,9 @@
 # Docker Landing Page
 
 Clone of [`dev-landing-page`](https://github.com/flexdinesh/dev-landing-page) designed by
-[Dinesh Pandiyan](https://github.com/flexdinesh).
+[Dinesh Pandiyan](https://github.com/flexdinesh). Configurable using environment variables.
 
-Written with Express and Pug. Configurable using environment variables.
+Written with Express and Pug.
 
 ## Supported tags and respective `Dockerfile` links
 
