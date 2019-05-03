@@ -1,0 +1,10 @@
+{
+  "extends": [
+    "xo/esnext"
+  ],
+  "rules": {
+    "comma-dangle": ["error", "always-multiline"],
+    "indent": [2, 2, { "SwitchCase": 1 }],
+    "object-curly-spacing": ["error", "always"]
+  }
+}
