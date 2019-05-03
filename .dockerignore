@@ -1,0 +1,8 @@
+*
+!app/
+!bin/
+!config/
+!public/
+!views/
+!.npmrc
+!package.json

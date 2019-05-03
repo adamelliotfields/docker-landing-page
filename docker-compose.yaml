@@ -1,0 +1,17 @@
+version: "3.5"
+
+services:
+  landing-page:
+    image: adamelliotfields/landing-page:latest
+    container_name: landing-page
+    env_file: .env
+    ports:
+    - '0.0.0.0:3000:3000'
+    networks:
+    - landing-page
+    healthcheck:
+      test: ["CMD", "curl", "-fs", "http://localhost:3000/healthz"]
+
+networks:
+  landing-page:
+    name: landing-page
