@@ -1,0 +1,40 @@
+extends layout.pug
+
+block content
+  main
+    h1 #{intro}
+    p #{tagline}
+    div
+      if github
+        a(href=github,target='_blank',rel='noopener noreferrer',aria-label='github')
+          i.fab.fa-github-square
+      if twitter
+        a(href=twitter,target='_blank',rel='noopener noreferrer',aria-label='twitter')
+          i.fab.fa-twitter-square
+      if facebook
+        a(href=facebook,target='_blank',rel='noopener noreferrer',aria-label='facebook')
+          i.fab.fa-facebook
+      if linkedin
+        a(href=linkedin,target='_blank',rel='noopener noreferrer',aria-label='linkedin')
+          i.fab.fa-linkedin
+      if behance
+        a(href=behance,target='_blank',rel='noopener noreferrer',aria-label='behance')
+          i.fab.fa-behance-square
+      if devto
+        a(href=devto,target='_blank',rel='noopener noreferrer',aria-label='dev dot to')
+          i.fab.fa-dev
+      if medium
+        a(href=medium,target='_blank',rel='noopener noreferrer',aria-label='medium')
+          i.fab.fa-medium
+      if instagram
+        a(href=instagram,target='_blank',rel='noopener noreferrer',aria-label='instagram')
+          i.fab.fa-instagram
+      if stackoverflow
+        a(href=stackoverflow,target='_blank',rel='noopener noreferrer',aria-label='stack overflow')
+          i.fab.fa-stack-overflow
+      if freecodecamp
+        a(href=freecodecamp,target='_blank',rel='noopener noreferrer',aria-label='free code camp')
+          i.fab.fa-free-code-camp
+      if codepen
+        a(href=codepen,target='_blank',rel='noopener noreferrer',aria-label='code pen')
+          i.fab.fa-codepen
