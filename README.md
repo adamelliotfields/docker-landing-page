@@ -1,6 +1,6 @@
 # Docker Landing Page
 
-:airplane: Clone of [`dev-landing-page`](https://github.com/flexdinesh/dev-landing-page) designed by
+Clone of [`dev-landing-page`](https://github.com/flexdinesh/dev-landing-page) designed by
 [Dinesh Pandiyan](https://github.com/flexdinesh).
 
 Written with Express and Pug. Configurable using environment variables.
